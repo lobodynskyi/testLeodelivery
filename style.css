@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@media (max-width: 992px){}
+@media (max-width: 768px){}
+@media (max-width: 576px){}
+
+
+.navbar.solid {
+    background-color: #490D40;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+   }
+  
+
+img{
+    width: 124px; height: 124px; object-fit: contain;
+}
+
+.nav-item:hover{
+    background-color: #f39d1a
+}
+
+
+
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+ }
+
+ 
+
+ body {
+    /* margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family: arial; */
+
+    
+}
+
+
+
+
+
+#section2{
+    background: #333;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+
+
+.myContainer{
+    width: 100%;
+    position: relative;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.myContainer .myCard{
+    position: relative;
+}
+
+
+.myContainer .myCard .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+
+.myContainer .myCard .face.face1 .content{
+    opacity: 0.2;
+    text-align: center;
+}
+
+.myContainer .myCard:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.myContainer .myCard .face.face1 .content img{
+    max-width: 100px;
+}
+
+.myContainer .myCard .face.face1 .content h3{
+   margin: 10px 0 0 ;
+   padding: 0;
+   color: #fff;
+   font-size: 1.5em;
+}
+
+
+.myContainer .myCard .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+
+.myContainer .myCard:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0);
+}
+
+.myContainer .myCard .face.face2{
+    position: relative;
+    background: #fff;
+    justify-content:center;
+    align-items: center; 
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+
+.myContainer .myCard:hover .face.face2{
+    transform: translateY(0);
+}
+
+.myContainer .myCard .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
