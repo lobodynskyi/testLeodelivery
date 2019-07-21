@@ -12,32 +12,32 @@
 
 
 
-.box .screen{
+.mybox .screen{
 transition:  0.5s;
 }
 
 
-.box:hover .screen.screen5{
+.mybox:hover .screen.screen5{
     transform: translateY(-80px);
     opacity: 1;
 }
 
-.box:hover .screen.screen4{
+.mybox:hover .screen.screen4{
     transform: translateY(-40px);
     opacity: .8;
 }
 
-.box:hover .screen.screen3{
+.mybox:hover .screen.screen3{
     transform: translateY(0px);
     opacity: .8;
 }
 
-.box:hover .screen.screen2{
+.mybox:hover .screen.screen2{
     transform: translateY(40px);
     opacity: .6;
 }
 
-.box:hover .screen.screen1{
+.mybox:hover .screen.screen1{
     transform: translateY(80px);
     opacity: .6;
 }
@@ -57,6 +57,14 @@ transition:  0.5s;
     transform: translate(-50%,-50%); */
   
 }
+
+.lead{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+
 
 
 .loader h1{

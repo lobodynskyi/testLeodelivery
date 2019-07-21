@@ -28,17 +28,6 @@ img{
 
  
 
- body {
-    /* margin: 0;
-    padding: 0;
-    background-color: transparent;
-    font-family: arial; */
-
-    
-}
-
-
-
 
 
 #section2{
@@ -205,4 +194,14 @@ img{
         border-bottom-color: #262626;
         border-left-color: #262626;
     }
+}
+
+
+
+.myprice{
+    margin: auto;
+    width: 70%;
+    border: 3px solid green;
+    text-align: center;
+    
 }
