@@ -5,8 +5,10 @@
 <head>
   <title>My First HTML Page</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="css/mypartner.css" />
   <link rel="stylesheet" type="text/css" href="css/myIntroductionSection.css" />
   <link rel="stylesheet" type="text/css" href="css/myForm.css" />
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -191,127 +193,132 @@
   </div>
 
 
+  <div class="d-flex flex-row">
+    <h1 class="mx-auto"> ПРАЙС:<br> ИЗРАИЛЬ⇆УКРАИНА<br> УКРАИНА ⇆ ИЗРАИЛЬ</h1>
+  </div>
+
+
   <div id="section3">
-    
-    <div class="container">
-      <h1> ПРАЙС:<br> ИЗРАИЛЬ⇆УКРАИНА<br> УКРАИНА ⇆ ИЗРАИЛЬ</h1>
-    </div>
-
-
     <div class="myprice">
-      <table id="theTable" class="footable table outerBorder footable-loaded" style="width: 100%; margin: 0px;">
-        <thead>
-          <tr>
-            <th id="thCol0" data-type="alpha"> Вес/кг</th>
-            <th id="thCol1" data-type="alpha"> Цена, шек.</th>
-            <th id="thCol2" data-type="alpha">Стоимость при оплате в Украине не включая доставку по Израилю в $/кг</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="footableOdd">
-            <td>Документы 500 - 1000 грамм</td>
-            <td>122,00 </td>
-            <td>min 26,00</td>
-          </tr>
-          <tr class="footableEven">
-            <td>1 – 3 кг</td>
-            <td>147,00</td>
-            <td>min 30,00</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>3 – 4 кг</td>
-            <td>170,00</td>
-            <td>11,00</td>
-          </tr>
-          <tr class="footableEven">
-            <td>4 – 5 кг</td>
-            <td>187,00</td>
-            <td>9,80</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>5 – 6 кг</td>
-            <td>203,00</td>
-            <td>8,90</td>
-          </tr>
-          <tr class="footableEven">
-            <td>6 – 7 кг</td>
-            <td>219,00</td>
-            <td>8,30</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>7 – 8 кг</td>
-            <td>235,00</td>
-            <td>8,00</td>
-          </tr>
-          <tr class="footableEven">
-            <td>8 – 9 кг</td>
-            <td>251,00</td>
-            <td>7,70</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>9 – 10 кг</td>
-            <td>267,00</td>
-            <td>7,30</td>
-          </tr>
-          <tr class="footableEven">
-            <td>10 – 11 кг</td>
-            <td>283,00</td>
-            <td>7,10</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>11 - 12 кг</td>
-            <td>299,00</td>
-            <td>6,90</td>
-          </tr>
-          <tr class="footableEven">
-            <td>12 – 13 кг</td>
-            <td>315,00</td>
-            <td>6,70</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>13 – 14 кг</td>
-            <td>331,00</td>
-            <td>6,50</td>
-          </tr>
-          <tr class="footableEven">
-            <td>14 – 15 кг</td>
-            <td>357,00</td>
-            <td>6,30</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>15 – 16 кг</td>
-            <td>373,00</td>
-            <td>6,10</td>
-          </tr>
-          <tr class="footableEven">
-            <td>16 – 17 кг</td>
-            <td>389,00</td>
-            <td>5,90</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>17 – 18 кг</td>
-            <td>405,00</td>
-            <td>5,70</td>
-          </tr>
-          <tr class="footableEven">
-            <td>18 – 19 кг</td>
-            <td>421,00</td>
-            <td>5,50</td>
-          </tr>
-          <tr class="footableOdd">
-            <td>19 - 20 кг</td>
-            <td>437,00</td>
-            <td>5,20</td>
-          </tr>
-          <tr class="footableEven">
-            <td>20 кг +</td>
-            <td>437,00 + 18 שייח / кг </td>
-            <td>4,99</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="container">
+        <h1> ПРАЙС:<br> ИЗРАИЛЬ⇆УКРАИНА<br> УКРАИНА ⇆ ИЗРАИЛЬ</h1>
+      </div>
 
+      <div class="table-responsive-sm">
+        <table class="table table-bordered table-hover table-condensed table-centered">
+          <thead class="thead-light">
+            <tr>
+              <th>Вес/кг</th>
+              <th>Цена, шек.</th>
+              <th>Стоимость при оплате в Украине не включая доставку по Израилю в $/кг</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Документы 500 - 1000 грамм</td>
+              <td>122,00 </td>
+              <td>min 26,00</td>
+            </tr>
+            <tr>
+              <td>1 – 3 кг</td>
+              <td>147,00</td>
+              <td>min 30,00</td>
+            </tr>
+            <tr>
+              <td> – 4 кг</td>
+              <td>170,00</td>
+              <td>11,00</td>
+            </tr>
+            <tr>
+              <td>4 – 5 кг</td>
+              <td>187,00</td>
+              <td>9,80</td>
+            </tr>
+            <tr>
+              <td>5 – 6 кг</td>
+              <td>203,00</td>
+              <td>8,90</td>
+            </tr>
+            <tr>
+              <td>6 – 7 кг</td>
+              <td>219,00</td>
+              <td>8,30</td>
+            </tr>
+            <tr>
+              <td>7 – 8 кг</td>
+              <td>235,00</td>
+              <td>8,00</td>
+            </tr>
+            <tr>
+              <td>8 – 9 кг</td>
+              <td>251,00</td>
+              <td>7,70</td>
+            </tr>
+            <tr>
+              <td>9 – 10 кг</td>
+              <td>267,00</td>
+              <td>7,30</td>
+            </tr>
+            <tr>
+              <td>10 – 11 кг</td>
+              <td>283,00</td>
+              <td>7,10</td>
+            </tr>
+            <tr>
+              <td>11 - 12 кг</td>
+              <td>299,00</td>
+              <td>6,90</td>
+            </tr>
+            <tr>
+              <td>12 – 13 кг</td>
+              <td>315,00</td>
+              <td>6,70</td>
+            </tr>
+            <tr>
+              <td>13 – 14 кг</td>
+              <td>331,00</td>
+              <td>6,50</td>
+            </tr>
+            <tr>
+              <td>14 – 15 кг</td>
+              <td>357,00</td>
+              <td>6,30</td>
+            </tr>
+            <tr>
+              <td>15 – 16 кг</td>
+              <td>373,00</td>
+              <td>6,10</td>
+            </tr>
+            <tr>
+              <td>16 – 17 кг</td>
+              <td>389,00</td>
+              <td>5,90</td>
+            </tr>
+            <tr>
+              <td>17 – 18 кг</td>
+              <td>405,00</td>
+              <td>5,70</td>
+            </tr>
+            <tr>
+              <td>18 – 19 кг</td>
+              <td>421,00</td>
+              <td>5,50</td>
+            </tr>
+            <tr>
+              <td>19 - 20 кг</td>
+              <td>437,00</td>
+              <td>5,20</td>
+            </tr>
+            <tr>
+              <td>20 кг +</td>
+              <td>437,00 + 18 שייח / кг </td>
+              <td>4,99</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+
 
 
   </div>
@@ -319,14 +326,24 @@
   <div id="section4">
 
 
-    <div class="myPartner">
-      <a href="#">Наш партнер Altzicer&amp;Co</a>
+
+
+    <div class="d-flex justify-content-center">
+      <div class="ourPartner">
+        <a href="#">Наш партнер Altzicer&amp;Co</a>
+      </div>
     </div>
+
+
 
   </div>
 
 
   <div id="section5">
+
+
+
+
     <div class="container-fluid padding">
       <div class="row welcome text-center">
         <div class="col-12">
@@ -339,12 +356,38 @@
           <p class="lead">
             Чтобы воспользоваться услугами Leodelivery.<br> Нужно скачать форму( представлена ниже )<br> и заполнить ее.
             Заполненную форму нужно<br> выслать нам, место для отправки заполненной<br> формы представлен ниже.
-
           </p>
         </div>
-
       </div>
     </div>
+
+
+
+
+
+    <div class="container-fluid pl-0">
+      <div class="row justify-content-center">
+        <div class="col-sm-6" style="background-color:rgb(148, 94, 94);">
+          <div class="myprice">
+            <h1>форма для заповнення</h1>
+            <img src="img/w2.png">
+          </div>
+        </div>
+        <div class="col-sm-6" style="background-color:rgb(58, 122, 93);">
+          <div class="myprice">
+            <h1>пример заполненной форми</h1>
+            <img src="img/w2.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
   </div>
 
 
