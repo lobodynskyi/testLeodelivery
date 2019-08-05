@@ -1,15 +1,18 @@
 
 
 
-
-
 #section1{
-   
-   
+    
+    background-image: url('../img/section1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
-
+#section7{
+    width: 100%;
+    height: 100%;
+}
 
 
 .mybox .screen{
@@ -43,18 +46,18 @@ transition:  0.5s;
 }
 
 .intro{
-    width: 100%;
-    height: 500px;
-    background-image: url('../img/section1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+
 }
 
 .loader{
     /* position: absolute;
     top: 20%;
     left: 10%;
-    transform: translate(-50%,-50%); */
+    transform: translate(-50%,-50%); 
+    
+        width: 100%;
+    height: 100%;
+    */
   
 }
 
